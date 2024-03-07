@@ -12,6 +12,6 @@ chrome.runtime.onInstalled.addListener(() => {
         type: 'basic',
         iconUrl: 'images/icon.png',
         title: 'Extension Installed',
-        message: 'My Extension was successfully installed.'
+        message: 'iTrent hours to days converter, successfully installed.'
     });
 });
