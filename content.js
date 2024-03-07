@@ -25,9 +25,9 @@
                 }
             }
         } else {
-            // console.error('Could not find any elements.');
+            // message to user
         }
     } else {
-        // console.error('This script is only operational on URLs containing mySite.com.');
+        // message to user
     }
 })();
