@@ -10,7 +10,7 @@ chrome.action.onClicked.addListener((tab) => {
 chrome.runtime.onInstalled.addListener(() => {
     chrome.notifications.create({
         type: 'basic',
-        iconUrl: 'images/icon.png', // Path to the icon
+        iconUrl: 'images/icon.png',
         title: 'Extension Installed',
         message: 'My Extension was successfully installed.'
     });
