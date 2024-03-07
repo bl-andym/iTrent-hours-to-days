@@ -7,7 +7,6 @@ chrome.action.onClicked.addListener((tab) => {
     });
 });
 
-// Example notification (you can trigger this based on specific events)
 chrome.runtime.onInstalled.addListener(() => {
     chrome.notifications.create({
         type: 'basic',
