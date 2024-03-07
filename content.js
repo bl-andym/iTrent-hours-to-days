@@ -25,9 +25,9 @@
                 }
             }
         } else {
-            console.error('Could not find any elements.');
+            // console.error('Could not find any elements.');
         }
     } else {
-        console.error('This script is only operational on URLs containing mySite.com.');
+        // console.error('This script is only operational on URLs containing mySite.com.');
     }
 })();
